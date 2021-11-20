@@ -1,0 +1,8 @@
+version: '3.0'
+
+services:
+  app:
+    image: lysunaleksandr/testdocker:latest
+  
+  database:
+    image: postgres:11-alpine
